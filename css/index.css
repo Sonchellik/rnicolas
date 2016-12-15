@@ -1,0 +1,123 @@
+
+#jumbobox{
+    /*background: url('../imaxes/fondos/paper-blue.jpg')  center center scroll;*/
+    background: url('../imaxes/fondos/paper-blue.jpg')  center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  background-color:hsl(180, 100%, 90%);
+  height:20%;
+  margin-bottom: 5%;
+}
+
+
+
+#autorbox{
+  color:hsl(0, 0%, 25%);
+  margin-top:60px;
+  min-height:100%;
+}
+
+
+
+#nombre{
+  margin-top:120px;
+}
+
+#nombre h1{
+   font-family: 'Patua One', cursive;
+   font-size: 6em;
+   margin-bottom: 10%;
+}
+
+
+#textoMonchoindex:hover{
+  opacity:0.5;
+  filter: alpha(opacity=50); 
+}
+#textoMonchoindex{
+    background-color: #ffffff;
+   /* border: 1px solid black;*/
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+#textoMonchoindex p{
+  font-family: 'Dancing Script', cursive;
+  color:black;
+  font-weight:bold;
+  font-size: 2em;
+}
+
+
+
+
+
+
+@media(max-width:900px){
+  #textoMonchoindex p{
+      font-size: 1.5em;
+    }
+}
+
+/*****FLECHAS*****/
+#flecha1, #flecha2, #flecha3{
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  }
+
+@media (max-height:600px){
+#flecha1, #flecha2, #flecha3{
+  display:none;
+}
+}
+
+#libro img:hover{
+      
+}
+
+
+
+
+
+/********CARRUSEL*******/
+div.c-wrapper{
+    width: 90%;
+    margin: 60px auto;
+}
+.carousel{
+  height:500px;
+  border: 1px solid black;
+  box-shadow: 10px 10px 5px #888888;
+  background: url('../imaxes/fondos/paper-blue.jpg');
+}
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+  margin: 15px auto 10px;
+  width: 300px;
+  height: auto;
+}
+
+
+.carousel-indicators li{
+  background-color: black;
+}
+
+.carousel-indicators .active{
+  background-color: blue;
+}
+
+.carousel-inner .carousel-caption{
+ 
+}
+
+.carousel-inner .carousel-caption h3{
+  font-family: 'Libre Baskerville', serif;
+}
+
+.carousel-inner .carousel-caption p{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+/*******FIN DE CARRUSEL*******/

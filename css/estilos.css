@@ -1,0 +1,241 @@
+body{
+	width: 100%;
+  height: 100%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-bottom: 90px; /* La altura del pie */
+}
+
+html {
+  width: 100%;
+  min-height: 100%;
+  position:relative; /* Posición relativa para ayudar a mantener el pie abajo */
+}
+
+h1,h3{
+  font-family: 'Libre Baskerville', serif;
+}
+h1, .espello h3{
+  color:#657fa4;
+}
+
+h2{
+  font-family: 'Tangerine', serif;
+  font-size: 38px;
+}
+
+a:focus {
+  border: none;
+  outline: none;
+}
+
+
+header{
+  width:100%;
+  height:10%;
+  margin-top:4%;
+  margin-bottom:5%;
+  background:url('../imaxes/fondos/typewriterCropped.jpg');
+  background-size: cover;
+}
+
+
+
+@media (min-width: 768px) {
+  p {
+    margin: 0 0 35px;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+}
+
+
+
+/******BARRA DE NAVEGACIÓN******/
+.navbar-inverse .navbar-text {
+  color: #6683ac;
+}
+
+.navbar-inverse{
+  background: url('../imaxes/fondos/paper-blue.jpg');
+  border-bottom: none;
+  font-family: 'Libre Baskerville', serif;
+}
+.navbar-inverse .navbar-nav > .active > a{
+  color: #6683ac;
+  background-color: #b3b3b3;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.navbar-inverse .navbar-nav > li > a {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: hsl(215, 29%, 30%);
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #6683ac;
+  background-color: #b3b3b3;
+}
+
+.navbar-inverse .navbar-nav > li > .dropdown-menu {
+  background-color: black;
+}
+
+.navbar-inverse .navbar-nav > li > .dropdown-menu > li > a {
+  color: #6683ac;
+  font-weight: bold;
+  font-size:1em;
+}
+
+
+.navbar-inverse .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-inverse .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #6683ac;
+  background-color: #b3b3b3;
+}
+
+.navbar-inverse .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #b3b3b3;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #6683ac;
+  background-color: #b3b3b3;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #6683ac;
+  background-color: #b3b3b3;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  color: #6683ac;
+  background-color: #b3b3b3;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #b3b3b3;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #b3b3b3;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #b3b3b3;
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #b3b3b3;
+}
+
+.navbar-inverse .navbar-link {
+  color: #b3b3b3;
+}
+
+.navbar-inverse .navbar-link:hover {
+  color: #b3b3b3;
+}
+/*
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #bbffcc;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #bbffcc;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #bbffcc;
+    background-color: #b3b3b3;
+}
+*/
+
+
+
+/*@media (min-width: 979px) {*/
+  ul.nav li.dropdown:hover > ul.dropdown-menu{
+    display: block;
+  }
+/*}*/
+
+@media (max-width: 361px){
+  ul.nav li.dropdown:hover >ul.dropdown-menu{
+    font-size: 0.63em;
+  }
+}
+
+@media (max-width:1279px){
+  ul.nav li.dropdown:hover >ul.dropdown-menu{
+    position:absolute;
+    left:0.1%; 
+    min-width:450px;
+  }
+}
+
+
+@media (max-width: 779px) {
+  .navbar-inverse .navbar-nav > li > a {
+    font-weight: normal;
+  }
+}
+/*****FIN DE BARRA DE NAVEGACIÓN*****/
+
+
+/*
+#pie{
+  
+  background:url('../imaxes/fondos/typewriterCroppedRevés.jpg');
+  background-size: cover;
+}*/
+
+.affix{
+  bottom:0px;
+  right:15px;
+}
+
+
+.contenedor-pie{
+  position: absolute;
+  bottom:0;
+  width:100%;
+  height:90px;
+}
+
+.footer{
+  background: url('../imaxes/fondos/paper-blue.jpg');
+  padding: 10px;
+  
+}
+
+@media (max-width: 979px) {
+  .footer .row div{
+    margin-top:5%;
+    text-align: left;
+  }
+}
+
+
+.margen10{
+  margin: 10%;
+}
+
+@media (max-width: 979px){
+  .margen10{
+    margin: 20% 10%;
+  }
+}
+
+
+
