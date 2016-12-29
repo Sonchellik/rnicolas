@@ -3,6 +3,7 @@ body{
   height: 100%;
   font-family: 'Open Sans Condensed', sans-serif;
   margin-bottom: 90px; /* La altura del pie */
+  
 }
 
 html {
@@ -237,5 +238,14 @@ header{
   }
 }
 
+/**AXUSTA O TAMAÑO DOS LOGOS DAS LIBRERÍAS**/
+.logos{
+  width: 250px;
+}
 
 
+@media(min-width: 768px){
+  .logos{
+    width: 800px;
+  }
+}

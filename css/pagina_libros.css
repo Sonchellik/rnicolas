@@ -1,35 +1,73 @@
 .libros{
-	padding:5%;
-	margin-top:20%;
+	
+	margin-bottom:25%;
+	
 }
 
-.libros .hilera{
-	padding:5%;
+
+.col-sm-4, .col-sm-3, .traducion{
+	margin-top:20%;
 }
 
 .w3-card-12{
 	background: url('../imaxes/fondos/paper-blue.jpg');
 	color:white;
+	
 }
 
+/*.libro{
+	width:80%;
+}
+*/
 .w3-card-12  img{
 	width:100%;
-	/*height:300px;*/
 	margin-top:-20px;
 }
 
 @media(min-width:768px){
-	.w3-card-12{
-		width:50%;
-		margin-left:20%;
+	.libro{
+		height:350px;
+	}
+
+	.trad{
+		height: 500px;
 	}
 }
 
-@media (max-width: 979px) {
-  .w3-card-12 {
-    margin-bottom: 10%;
+@media (min-width: 980px) {
+  .libro {
+    	height: 500px;
   }
-  /*.hilera{
-  	margin-top: 10%;
-  }*/
+  .traducion{
+  	margin-top:10%;
+  }
+  .trad{
+  		height: 650px;
+  }
 }
+  
+@media(min-width:1190px){
+  .libro{
+    	height: 600px;
+  }	
+  .trad{
+  		height: 400px;
+  }
+}  
+/*  
+@media(min-width:1280px){
+  .libro {
+    	height: 600px;
+  }	
+}*/
+
+@media(min-width:1920px){
+  .libro{
+    	height: 950px;
+  }	
+  .trad{
+  		height: 600px;
+  }
+}
+
+
