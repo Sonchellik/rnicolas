@@ -58,7 +58,7 @@
                   <ul class="dropdown-menu">
                    <li><a href="participacionEnsaios.php">Ensaios colectivos</a></li>
                    <li><a href="artigos.php">Artigos en revistas</a></li>
-                   <li><a href="traduccions.php">Traduccións</a></li>
+                   <li><a href="traducions.php">Traducións</a></li>
                   </ul>
                 </li>
         			<li><a href="https://cadernodacritica.wordpress.com/" target="_new">Blogue</a></li>
