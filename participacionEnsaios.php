@@ -83,11 +83,6 @@ Rexurdimento século XX”, en Galicia Literatura. A literatura anterior á
 Guerra Civil. Coordinación, Anxo Tarrío Varela, A Coruña: Hércules de
 Ediciones, 2000, pp. 27-81.</p>
 
-<p>“Problemática del modernismo en Galicia : Cabanillas, Noriega y epígonos del
-Rexurdimento El siglo XX”, en Galicia Literatura. La literatura anterior a la
-Guerra Civil. Coordinación, Anxo Tarrío Varela, A Coruña: Hércules de
-Ediciones, 2000, pp. 27-81.</p>
-
 <p>“Algunhas calas no epistolario de Bouza Brey a Otero Pedrayo e Fernández del
 Riego” en Xornadas sobre Fermín Bouza-Brey : actas das xornadas relizadas
 pola Dirección Xeral de Promoción Cultural en Ponteareas, os días 15 e 16 de
@@ -151,11 +146,11 @@ Lorenzo Varela, Vigo: Concello de Monterroso-Xerais, 2007, pp. 50-52.</p>
 
 <p>“Acuña na radio, poetas de Galicia”, en Actas do III Congreso Manuel Luís Acuña. A Pobra de Trives, 16-18 de novembro de 2006. Edición de Xoán Carlos Domínguez e Xosé Manuel Cid Fernández. Santiago de Compostela. Sociedade para o Desenvolvemento Comarcal de Galicia, D.L. 2008, p. 137-139.</p>
 
-<p>“TÍTULO PENDENTE”, Marcos Valcárcel. O valor da xenerosidade, 2009, Difusora.</p>
+<p>“Lueiro Rey canta a Ourense”, Marcos Valcárcel. O valor da xenerosidade, 2009, Difusora.</p>
 
 <p>"Lois Antón: epifanía da cultura popular. Un fistor que atopa a súa voz". Voz da terra, arela de pobo, Ourense: Asoc. Cultural e Xuvenil de Ramirás, 2009.</p>
 
-<p>“TÍTULO PENDENTE”,   Ex toto corde : no oitenta aniversario de don Xesús Alonso Montero , Santa Comba: tresCtres, 2009.</p>
+<p>“Xesús Alonso Montero: ex toto corde”,   Ex toto corde : no oitenta aniversario de don Xesús Alonso Montero , Santa Comba: tresCtres, 2009.</p>
 
 <p>“Lugrís Freire : a vida dun patriota, desde a orixes até a época cubana”, en Congreso sobre Lugrís Freire. Edición de Carme Fernández Pérez-Sanjulián, María Pilar García Negro, Henrique Rabuñal Corgo, A Coruña: Universidade da Coruña, 2009, pp. 27-54.</p>
 
@@ -163,7 +158,7 @@ Lorenzo Varela, Vigo: Concello de Monterroso-Xerais, 2007, pp. 50-52.</p>
 
 <p>“Proxección exterior da narrativa galega”, en VI Encontro de Escritores Galegos : Literatura e proxección exterior : Pazo de Mariñán 20, 21 e 22 de novembro de 2008. Edición ao coidado de Xosé Manuel Fernández Castro e Luciano Rodríguez Gómez. A Coruña: Dpeutación Provincial da Coruña, 2012, pp. 33-38.</p>
 
-<p>“TÍTULO PENDENTE”, Carlos Casares, o amigo das palabras, Vigo: Galaxia. 2013</p>
+<p>“Entrevista. As palabras dos amigos”, Carlos Casares, o amigo das palabras, Vigo: Galaxia. 2013</p>
 
 <p>“Manuel Luís Acuña, a partitura poética dunha xeración en fuga”, en Actas do IV Congreso Manuel Luís Acuña. A Pobra de Trives, 19-21 de novembro de 2009. Edición de Xoán Carlos Domínguez Alberte,2013,  pp. 151-156.</p>
 

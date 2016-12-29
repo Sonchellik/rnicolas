@@ -5,7 +5,7 @@ include('templates/header.php');
 ?>
 
 <br>
-<div class="container-fluid" style="padding:10%;">
+<div class="container-fluid" style="padding:10%; margin-top:5%">
 
 <div class="row">
    	<div class="col-md-5" style="text-align:center;">
@@ -77,33 +77,34 @@ include('templates/header.php');
     </div>
     <br><br><br>
     <h1>Mércao en</h1><br>
-    <div class="row">
-     <div class="col-md-2">
+    <div class="row logos">
+     <div class="col-sm-2">
       <a href="https://www.amazon.es/Espello-Mundo-Edici%C3%B3n-Literaria-Narrativa/dp/8491210512/ref=sr_1_1?s=books&ie=UTF8&qid=1480534092&sr=1-1&keywords=o+espello+do+mundo" target="_new"><img class="img-responsive" src="imaxes/logos/amazon.jpg"></a>
      </div>
-     <div class="col-md-2">
+     <div class="col-sm-2">
       <a href="http://www.casadellibro.com/libro-o-espello-do-mundo/9788491210511/3021677" target="_new"><img class="img-responsive" src="imaxes/logos/lacasadellibro.jpeg"></a>
      </div>
-     <div class="col-md-2">
+     <div class="col-sm-2">
       <a href="http://www.elcorteingles.es/search/?s=9788491210511" target="_new"><img class="img-responsive" src="imaxes/logos/elcorteingles.jpeg"></a>
      </div>
-     <div class="col-md-2">
-      <a href="http://www.agapea.com/libros/O-espello-do-mundo-9788491210511-i.htm" target="_new"><img class="img-responsive" src="imaxes/logos/agapea.jpeg"></a>
+     <div class="col-sm-2">
+      <a href="http://www.agapea.com/libros/O-espello-do-mundo-9788491210511-i.htm" target="_new"><img class="img-responsive" src="imaxes/logos/agapea.jpg"></a>
      </div>
-     <div class="col-md-3">
-      <a href="https://www.elkar.eus/es/liburu_fitxa/o-espello-do-mundo/nicolas-ramon/9788491210511" target="_new"><img class="img-responsive" src="imaxes/logos/elkar.png"></a>
-     </div>
+     
      </div>
      <br>
-     <div class="row">
-     
-     <div class="col-md-3">
+     <div class="row logos">
+     <div class="col-sm-2">
+      <a href="https://www.elkar.eus/es/liburu_fitxa/o-espello-do-mundo/nicolas-ramon/9788491210511" target="_new"><img class="img-responsive" src="imaxes/logos/elkar.png"></a>
+     </div>
+     <div class="col-sm-2">
       <a href="http://www.imosver.com/es/libro/o-espello-do-mundo_3109980546" target="_new"><img class="img-responsive" src="imaxes/logos/imosver.jpg"></a>
      </div>
-     <div class="col-md-3">
+     <div class="col-sm-2">
       <a href="http://www.paquebote.com/9788491210511/nicolas-rodriguez-ramon-o-espello-do-mundo" target="_new"><img class="img-responsive" src="imaxes/logos/paquebote.png"></a>
      </div>
-     <div class="col-md-3">
+     <div class="col-sm-2">
+     <br>
       <a href="https://www.libreriaproteo.com/libro/ver/id/1764538/titulo/o-espello-do-mundo.html" target="_new"><img class="img-responsive" src="imaxes/logos/proteo.jpg"></a>
      </div>
       

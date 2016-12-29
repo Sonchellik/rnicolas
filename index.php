@@ -6,32 +6,34 @@ include('templates/header.php');
 
 <!--CAJA DE AUTOR-->
 <div class="jumbotron" id="jumbobox">
-  <div class="container-fluid" id="autorbox">
+  <div class="container" id="autorbox">
 
       <div class="text-center" id="nombre">
         <h1>Ramón Nicolás</h1>
          <h1>Autor</h1>
       </div>   
 
-      <div class="container-fluid" id="autor" style="display:none">
+      <div class="container" id="autor" style="display:none;">
         <div id="imagenMonchoindex">
-          <img class="img-responsive col-sm-6" src="imaxes/fotos/10b.jpg">
+          <img class="img-responsive col-sm-5" src="imaxes/fotos/10b.jpg">
         </div>
 
-        <div id="textoMonchoindex" class="text-justify col-sm-6">
-          <p><br><i class="fa fa-quote-left fa-3x fa-pull-left" style="font-style:italic;"></i>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<i class="fa fa-quote-right fa-3x fa-pull-right" style="font-style:italic;"></i>
+        <div id="textoMonchoindex" class="text-justify col-sm-5 col-sm-offset-1">
+          <p id="dancing"><br><i class="fa fa-quote-left fa-3x fa-pull-left" style="font-style:italic;"></i>Escoitando no meu interior a música das palabras en galego imaxinei como debe soar a música que entoan as fragas de carballos arredor de San Pedro de Ramirás, a música da auga do Río Sil, a do trebón na Fervenza do Xallas.<i class="fa fa-quote-right fa-3x fa-pull-right" style="font-style:italic;"></i>
 </p>
+<p id="pindex">(Fragmento dunha carta de Hildegarda von Bingen, que trouxo de Rupertsberg e transcribiu do latín Marilar Aleixandre. Lida en Compostela o 7 de novembro de 2016.)</p>
         </div>
       </div>
 
+
   </div>
+
 </div>
 <!--FIN CAJA DE AUTOR-->
 
 <!--FLECHA 1-->
 
-<div class="page-header">
+<div class="page-header uno">
   <div class="row" id="flecha">
     <div id="flecha1" ><a href="#libro"  class="page-scroll"><i class="fa fa-arrow-circle-down fa-4x" aria-hidden="true" style="color:#6683ac;"></i></a>
     </div>
@@ -88,7 +90,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
   <div class="carousel-inner" role="listbox">    
 
     <div class="item active">
-      <a href="guiaSonhoSulagado.php"><img class="img-responsive center-block" src="imaxes/cubertas/libros/Guía de lectura O soño sulagado.jpg" alt="O soño sulagado. Guía de lectura"></a>
+      <a href="guiaSonhoSulagado.php"><img class="img-responsive center-block" src="imaxes/cubertas/libros/oSoñoSulagado.jpg" alt="O soño sulagado. Guía de lectura"></a>
     </div>
 
     <div class="item">
@@ -96,15 +98,15 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
     </div>
 
     <div class="item">
-      <a href="entrevistasAlvaroCunqueiro.php"><img class="img-responsive center-block" src="imaxes/cubertas/libros/Entrevistas a Álvaro Cunqueiro.jpg" alt="Entrevistas a Álvaro Cunqueiro.jpg"></a>
+      <a href="entrevistasAlvaroCunqueiro.php"><img class="img-responsive center-block" src="imaxes/cubertas/libros/entrevistas.jpg" alt="Entrevistas a Álvaro Cunqueiro.jpg"></a>
     </div>
 
     <div class="item">
-      <a href="papeisDeLiteratura.php"><img class="img-responsive center-block" src="imaxes/cubertas/libros/Papeis de literatura.jpg" alt="Papeis de Literatura"></a>
+      <a href="papeisDeLiteratura.php"><img class="img-responsive center-block" src="imaxes/cubertas/libros/papeisDeLiteratura.jpg" alt="Papeis de Literatura"></a>
     </div>
 
     <div class="item">
-      <a href="manuelLugrisBiografia.php"><img class="img-responsive center-block" src="imaxes/cubertas/libros/Lugrí­s Freire Biografía.jpg" alt="Manuel Lugrís Freire. Biografía e Antoloxía"></a>
+      <a href="manuelLugrisBiografia.php"><img class="img-responsive center-block" src="imaxes/cubertas/libros/LugrísFreireBiografía.jpg" alt="Manuel Lugrís Freire. Biografía e Antoloxía"></a>
     </div>
 
     <div class="item">
@@ -153,6 +155,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 <!--SECCIONES-->
 <div class="container-fluid" style="background-color:white;">
+
   <div clas="row">
     <div class="col-md-4 col-md-offset-1 text-justify">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
